@@ -5,7 +5,7 @@ export function Home() {
   return (
     <>
       <Icon name="logo" size={20}/>
-      <Button />
+      <Button>Hello</Button>
     </>
   );
 }

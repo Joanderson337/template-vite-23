@@ -1,9 +1,14 @@
+import { ReactNode } from 'react';
 import { ContainerButton } from './styled';
 
-export function Button(){
+interface IButton {
+  children: ReactNode
+}
+
+export function Button({children}: IButton){
   return(
-    <ContainerButton>
-      <p>Hello Word</p>
+    <ContainerButton data-testid="button">
+      {children}
     </ContainerButton>
   );
 }

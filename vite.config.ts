@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import svgr from 'vite-plugin-svgr';
@@ -5,6 +6,18 @@ import * as path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  plugins: [react(), svgr()],
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: ['./.test/setup.ts'],
+    include: ['**/(*.)?{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
+    exclude: ['node_modules', 'dist', '.idea', '.git', '.cache'],
+  },
+  root: './',
+  build: {
+    outDir: '../dist',
+  },
   resolve:{
     alias: {
       '@' : path.resolve(__dirname, './src'),
@@ -18,6 +31,5 @@ export default defineConfig({
       '@utils' : path.resolve(__dirname, './src/utils'),
       '@mock' : path.resolve(__dirname, './src/mock')
     }
-  },
-  plugins: [react(), svgr()],
+  }
 });
