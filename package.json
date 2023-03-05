@@ -9,6 +9,8 @@
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage",
+    "lint-fix-all": "eslint src --ext .ts,.tsx --fix",
+    "lint-status": "./node_modules/.bin/eslint --fix --color -o ./lint/report.html -f html \"./src/**/*.{ts,tsx,js,jsx}\"",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },

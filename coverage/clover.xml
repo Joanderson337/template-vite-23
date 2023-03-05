@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1674489127920" clover="3.2.0">
-  <project timestamp="1674489127920" name="All files">
+<coverage generated="1678041195233" clover="3.2.0">
+  <project timestamp="1678041195233" name="All files">
     <metrics statements="20" coveredstatements="20" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4" elements="29" coveredelements="29" complexity="0" loc="20" ncloc="20" packages="1" files="2" classes="2"/>
     <file name="index.tsx" path="C:\Users\jhonn\Desktop\template-vite-23\src\components\Button\index.tsx">
       <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
