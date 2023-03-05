@@ -18,7 +18,7 @@
 
 ```yarn lint-status```
 
-Gera um arquivo html que contem todos os erros de lint de projeto.
+Gera um arquivo html que contem todos os erros de lint do projeto.
 
 ![image](https://user-images.githubusercontent.com/77758027/222978290-c2684ad2-7f99-40ec-91bf-cd40e82b48cc.png)
 ![image](https://user-images.githubusercontent.com/77758027/222978347-e9aa8116-144a-4f83-899f-1c77a8857eb0.png)
