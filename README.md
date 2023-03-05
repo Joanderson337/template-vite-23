@@ -23,11 +23,6 @@ Gera um arquivo html que contem todos os erros de lint de projeto.
 ![image](https://user-images.githubusercontent.com/77758027/222978290-c2684ad2-7f99-40ec-91bf-cd40e82b48cc.png)
 ![image](https://user-images.githubusercontent.com/77758027/222978347-e9aa8116-144a-4f83-899f-1c77a8857eb0.png)
 
-
-<br>
-
-```lint-fix-all``` : Resolve os problemas de lint de arquivos .ts .tsx .
-
 <br>
 
 ```npm run storybook```
@@ -62,6 +57,10 @@ Roda os teste unitários no terminal.
 Roda o projeto na porta http://localhost:5173/ .
 
 ![image](https://user-images.githubusercontent.com/77758027/222979772-9c0898d9-6308-4444-ae9e-506ed55c6a03.png)
+
+<br>
+
+```lint-fix-all``` : Resolve os problemas de lint de arquivos .ts .tsx .
 
 
 
