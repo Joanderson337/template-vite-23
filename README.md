@@ -54,7 +54,7 @@ Roda os teste unitários no terminal.
 
 ```npm run dev```
 
-Roda o projeto na porta http://localhost:5173/ .
+Roda o projeto na porta ```http://localhost:5173/``` .
 
 ![image](https://user-images.githubusercontent.com/77758027/222979772-9c0898d9-6308-4444-ae9e-506ed55c6a03.png)
 
